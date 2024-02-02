@@ -7,8 +7,8 @@ int a = 277 // stored in 32 bit integer
 
 ### Variable length encoding 
 - In variable length encoding 277 is represented as
-![image](https://github.com/Sat30/data_encoding_for_db/assets/101095981/f1769c9e-5b1f-456e-8f2b-c0a2ac0369b5)
 
+![image](https://github.com/Sat30/data_encoding_for_db/assets/101095981/f1769c9e-5b1f-456e-8f2b-c0a2ac0369b5)
 - `Orange bits : bits of 277`  
 - `Green bit : continuation bit` 
 	- `1` indicate there is another `byte` following it. : `1xxx xxxx`
